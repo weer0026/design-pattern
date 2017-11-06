@@ -1,5 +1,5 @@
 <?php
-// 注册命名空间
+// 注册自动加载(命名空间)
 defined('BASE_PATH') or define('BASE_PATH', __DIR__);
 
 spl_autoload_register(function ($class) {

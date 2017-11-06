@@ -7,7 +7,9 @@ use DesignPatterns\Singleton\Singleton;
 
 include "../../autoload.php";
 /**
- * @description:
+ * @description: 单例模式
+ * 确保类只有一个实例，适用于需要频繁创建和销毁的对象。
+ * 例如：数据库连接池
  * @author: He Chuan
  * @version: 17/11/6 上午10:31
  */
